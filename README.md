@@ -9,7 +9,7 @@
 | :--- | :--- | :--- | :--- |
 | **Parth Kantharia** | **Team Lead & Veterinary Domain Lead** | 4th Year B.V.Sc. & A.H., Mumbai Veterinary College (MAFSU) | Syndromic disease classification, veterinary triage rules, One Health epidemiological validation |
 | **Priyal Kantharia** | **Full-Stack & Systems Engineer** | Computer Engineering | Pipeline architecture, GIS visualization, Leaflet interactive dashboard, buffer logic |
-| **Rahul Bhojkar** | **Data & ML Engineer** | Computer Engineering | Isolation Forest anomaly detection, SHAP local attribution engine, feature normalization |
+| **Rahul Bhojkar** | **Data & ML Engineer** | Electronics and Telecommunication Engineering | Isolation Forest anomaly detection, SHAP local attribution engine, feature normalization |
 
 ---
 
