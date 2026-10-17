@@ -173,25 +173,7 @@ These are **project goals**, not measured results. Baselines are illustrative as
 
 **Validation plan:** retrospective reconstruction of documented outbreaks, lead-time measurement against confirmation dates, precision/recall and false-alert rate, geographic generalisation tests, and field response-time measurement.
 
----
 
-## 🚧 Limitations and roadmap
-
-**Current limitations**
-- Default data is **synthetic**. The evidence panel then validates the pipeline, not the biology (the simulated human series is built with a 2-week lag).
-- The risk score is a **heuristic composite**. With default weights, animal signals alone contribute at most 50 points, so reaching CRITICAL also needs climate or vaccination stress. Tune weights with veterinary experts.
-- Isolation Forest is a second opinion on a small feature set (3 features), not a validated predictor of spillover.
-- Server-side alerts use the default weights; calibration-slider changes affect the dashboard view only.
-- Livestock corridors and their volumes are illustrative until transport-permit or BAHIS data is linked.
-- The 5 km buffer is a configurable circle around the district centroid, **not** a validated containment perimeter.
-- `--live` climate uses short-baseline anomalies and needs internet access. NADRES and IDSP have no public live API, so animal and human data come from CSV.
-- Basemap boundary depiction comes from the tile provider. Use the Survey of India boundary overlay where official depiction is required.
-- Alert state is held in memory and resets when the server restarts.
-
-**Planned, not yet implemented**
-- NDVI/vegetation and flood/drought indices, cattle-density normalisation, and a 7–21-day lag-window analysis on real data.
-- Exact SHAP values, district choropleth polygons and disease-specific models.
-- Authenticated multi-user access and persistent alert storage.
 
 ---
 
