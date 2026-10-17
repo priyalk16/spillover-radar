@@ -164,26 +164,6 @@ python run.py                      # opens http://localhost:8000
 
 ---
 
-## 📁 Repository contents
-
-```text
-spillover-radar/
-├── run.py                            # pipeline + local server + dashboard template (single file)
-├── requirements.txt                  # numpy, pandas, scikit-learn
-├── README.md
-├── VetTech_Trio_Hack4Pashudhan.pptx  # hackathon presentation
-├── demo_spillover_radar_scores.csv   # sample scores export (simulated data)
-│
-│   # created when you run `python run.py` (safe to add to .gitignore):
-├── index.html                        # generated dashboard
-├── api/districts.json                # generated JSON payload
-└── data/
-    ├── surveillance_sample.csv       # schema example (demo mode)
-    ├── surveillance.csv              # (optional) your real data
-    ├── india_boundary.geojson        # (optional) official boundary overlay
-    └── scenarios/                    # (optional) case-replay CSV + JSON files
-```
-
 ---
 
 ## 📊 Impact targets (illustrative, not verified)
