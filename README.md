@@ -192,14 +192,6 @@ Create `data/surveillance.csv` (a schema example is auto-written to `data/survei
 
 ---
 
-## 🎬 Suggested 5-minute demo
-
-1. Run `python run.py --scenario data/scenarios/illustrative_outbreak.csv` and press **Play**; show the outbreak unfolding and the lead time against confirmation.
-2. Click a red district: score, top drivers (two views), trend projection, protocol.
-3. Switch the language to Hindi or Marathi.
-4. Open the **🔔 Alert Center** and show the 48-hour clock.
-5. Click **Simulate field-report surge** (or submit a report) and watch a new district turn red and a new alert fire.
-6. Show corridor exposure and **Download situation report**.
 
 ---
 
