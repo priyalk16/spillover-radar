@@ -1,30 +1,8 @@
 """
-Spillover Radar v3 — One Health Surveillance Dashboard (pipeline + live web server)
-Hackathon: Hack4Pashudhan (Verdant Impact) | Team ID: H4P-VC587GBK
+Spillover Radar  — One Health Surveillance Dashboard
+Hackathon: Hack4Pashudhan| Team ID: H4P-VC587GBK
 Team: VetTech Trio (Parth Kantharia, Priyal Kantharia, Rahul Bhojkar)
 
-What's new in v3 (on top of v2):
-- LIVE climate feed (Open-Meteo, no API key) with automatic fallback + data-freshness panel
-- CSV adapter: drop data/surveillance.csv in place of the simulated animal/human feed
-- Field-report intake: POST a report, pipeline re-runs, map updates in seconds
-- Ensemble detection: Isolation Forest (all district-weeks) + CUSUM change detection + risk threshold
-- Real model attribution (occlusion on Isolation Forest) next to the weighted-share explanation
-- Corridor exposure index (downstream spread risk), 2-week trend forecast, lead-time evidence
-- Expert weight calibration sliders + disease presets, ring-vaccination what-if
-- 48-hour alert queue with SLA clock, situation-report export, DVO alert-message copy
-
-v3.1 adds: Hindi/Marathi UI toggle, outbreak CASE-REPLAY mode (--scenario), data-completeness
-scoring (missing reports are never treated as zero), and an alert webhook (--webhook URL).
-
-NOTE: animal + human numbers are SIMULATED unless data/surveillance.csv exists.
-Climate is simulated unless you run with --live.
-
-Run:  python run.py                  -> http://localhost:8000
-      python run.py --live           (fetch real weather, refresh every 30 min)
-      python run.py --write-scenario-sample   (writes data/scenarios/illustrative_outbreak.csv/.json)
-      python run.py --scenario data/scenarios/illustrative_outbreak.csv   (case replay)
-      python run.py --webhook https://hooks.example/...   (POST on every new CRITICAL alert)
-      python run.py --no-browser | --build-only | --port 8080 | --refresh-min 15
 """
 
 import argparse
