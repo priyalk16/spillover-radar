@@ -206,6 +206,7 @@ These are **project goals**, not measured results. Baselines are illustrative as
 4. Liu, Ting & Zhou (2008). *Isolation Forest.* IEEE ICDM.
 5. Page, E. S. (1954). *Continuous inspection schemes* (CUSUM). Biometrika 41.
 6. Open-Meteo, free weather API: https://open-meteo.com
+7. Demo Video Link - https://drive.google.com/file/d/1rNYr50aLdHf_T_CeJl0eG46d0EXNfjua/view?usp=sharing
 
 ---
 
