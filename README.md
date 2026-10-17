@@ -6,7 +6,7 @@
 
 **Hack4Pashudhan | Verdant Impact National Hackathon · Team ID `H4P-VC587GBK`**
 
-> ⚠️ **Prototype status.** Animal and human numbers are **simulated** unless you supply real data (see [Using real data](#-using-real-data)). Scores are relative anomaly indicators, not diagnoses or probabilities of spillover.
+> ⚠️ **Prototype status.** Animal and human numbers are **simulated** unless you supply real data through `data/surveillance.csv`. Scores are relative anomaly indicators, not diagnoses or probabilities of spillover.
 
 ---
 
@@ -148,9 +148,6 @@ python run.py                      # opens http://localhost:8000
 
 `python run.py` generates `index.html`, `api/districts.json` and `data/surveillance_sample.csv`, then serves the dashboard.
 
-
-```
-
 ---
 
 ## 🔌 API
@@ -161,8 +158,6 @@ python run.py                      # opens http://localhost:8000
 | `/api/report` | POST | `{"district","abortions","deaths","ppr"}` (each 0–500) added to the latest week, then re-scored |
 | `/api/ack` | POST | `{"district": "<id>"}` advances that alert one workflow step |
 | `/api/refresh` | POST | Re-fetch live climate (if `--live`) and recompute |
-
----
 
 ---
 
