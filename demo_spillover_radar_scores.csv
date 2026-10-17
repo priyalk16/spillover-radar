@@ -1,0 +1,97 @@
+district,state,week,risk_score,status,deaths,abortions,human_fever
+Barmer,Rajasthan,Wk 1,40.3,WATCH,2,3,6
+Barmer,Rajasthan,Wk 2,46.5,WATCH,2,4,6
+Barmer,Rajasthan,Wk 3,46.5,WATCH,2,4,7
+Barmer,Rajasthan,Wk 4,66,WATCH,3,5,7
+Barmer,Rajasthan,Wk 5,73.8,CRITICAL,4,6,7
+Barmer,Rajasthan,Wk 6,84.7,CRITICAL,5,6,10
+Barmer,Rajasthan,Wk 7,82.3,CRITICAL,4,7,13
+Barmer,Rajasthan,Wk 8,97.9,CRITICAL,5,8,14
+Jodhpur,Rajasthan,Wk 1,39.7,NORMAL,2,3,7
+Jodhpur,Rajasthan,Wk 2,42,WATCH,2,3,7
+Jodhpur,Rajasthan,Wk 3,45.9,WATCH,2,4,6
+Jodhpur,Rajasthan,Wk 4,45.9,WATCH,2,4,7
+Jodhpur,Rajasthan,Wk 5,54.5,WATCH,3,4,8
+Jodhpur,Rajasthan,Wk 6,54.5,WATCH,2,5,8
+Jodhpur,Rajasthan,Wk 7,59.2,WATCH,3,4,9
+Jodhpur,Rajasthan,Wk 8,63,WATCH,3,5,9
+Bikaner,Rajasthan,Wk 1,46.1,WATCH,2,4,8
+Bikaner,Rajasthan,Wk 2,44.6,WATCH,2,3,8
+Bikaner,Rajasthan,Wk 3,54.7,WATCH,3,4,7
+Bikaner,Rajasthan,Wk 4,59.4,WATCH,3,4,7
+Bikaner,Rajasthan,Wk 5,59.4,WATCH,3,4,9
+Bikaner,Rajasthan,Wk 6,65.6,WATCH,3,5,9
+Bikaner,Rajasthan,Wk 7,71.8,CRITICAL,3,6,10
+Bikaner,Rajasthan,Wk 8,78,CRITICAL,4,6,11
+Jaisalmer,Rajasthan,Wk 1,27,NORMAL,1,2,4
+Jaisalmer,Rajasthan,Wk 2,37.2,NORMAL,2,3,4
+Jaisalmer,Rajasthan,Wk 3,43.4,WATCH,2,4,3
+Jaisalmer,Rajasthan,Wk 4,41.8,WATCH,2,3,6
+Jaisalmer,Rajasthan,Wk 5,45.7,WATCH,2,4,6
+Jaisalmer,Rajasthan,Wk 6,52,WATCH,2,5,7
+Jaisalmer,Rajasthan,Wk 7,62.9,WATCH,3,5,7
+Jaisalmer,Rajasthan,Wk 8,60.5,WATCH,3,5,8
+Jaipur,Rajasthan,Wk 1,23.4,NORMAL,1,2,5
+Jaipur,Rajasthan,Wk 2,23.4,NORMAL,1,2,4
+Jaipur,Rajasthan,Wk 3,29.7,NORMAL,1,3,3
+Jaipur,Rajasthan,Wk 4,29.7,NORMAL,1,3,4
+Jaipur,Rajasthan,Wk 5,29.7,NORMAL,1,3,5
+Jaipur,Rajasthan,Wk 6,27.3,NORMAL,1,3,5
+Jaipur,Rajasthan,Wk 7,29.7,NORMAL,1,3,5
+Jaipur,Rajasthan,Wk 8,29.7,NORMAL,1,3,4
+Kutch,Gujarat,Wk 1,30.4,NORMAL,1,3,6
+Kutch,Gujarat,Wk 2,26.5,NORMAL,1,2,5
+Kutch,Gujarat,Wk 3,35.1,NORMAL,1,3,5
+Kutch,Gujarat,Wk 4,41.3,WATCH,2,3,4
+Kutch,Gujarat,Wk 5,45.2,WATCH,2,4,5
+Kutch,Gujarat,Wk 6,45.2,WATCH,2,4,6
+Kutch,Gujarat,Wk 7,47.5,WATCH,2,4,8
+Kutch,Gujarat,Wk 8,47.5,WATCH,2,4,7
+Ahmednagar,Maharashtra,Wk 1,31,NORMAL,2,3,5
+Ahmednagar,Maharashtra,Wk 2,33.4,NORMAL,2,3,5
+Ahmednagar,Maharashtra,Wk 3,33.4,NORMAL,2,3,5
+Ahmednagar,Maharashtra,Wk 4,33.4,NORMAL,2,3,6
+Ahmednagar,Maharashtra,Wk 5,33.4,NORMAL,2,3,6
+Ahmednagar,Maharashtra,Wk 6,33.4,NORMAL,2,3,6
+Ahmednagar,Maharashtra,Wk 7,33.4,NORMAL,2,3,6
+Ahmednagar,Maharashtra,Wk 8,33.4,NORMAL,2,3,5
+Pune,Maharashtra,Wk 1,15.7,NORMAL,1,2,3
+Pune,Maharashtra,Wk 2,15.7,NORMAL,1,2,3
+Pune,Maharashtra,Wk 3,15.7,NORMAL,1,2,3
+Pune,Maharashtra,Wk 4,15.7,NORMAL,1,2,2
+Pune,Maharashtra,Wk 5,15.7,NORMAL,1,2,3
+Pune,Maharashtra,Wk 6,15.7,NORMAL,1,2,2
+Pune,Maharashtra,Wk 7,15.7,NORMAL,1,2,3
+Pune,Maharashtra,Wk 8,15.7,NORMAL,1,2,2
+Latur,Maharashtra,Wk 1,23.8,NORMAL,1,2,4
+Latur,Maharashtra,Wk 2,26.1,NORMAL,1,2,3
+Latur,Maharashtra,Wk 3,26.1,NORMAL,1,2,5
+Latur,Maharashtra,Wk 4,32.3,NORMAL,1,3,4
+Latur,Maharashtra,Wk 5,30,NORMAL,1,3,5
+Latur,Maharashtra,Wk 6,32.3,NORMAL,1,3,5
+Latur,Maharashtra,Wk 7,30,NORMAL,1,3,5
+Latur,Maharashtra,Wk 8,30,NORMAL,1,3,6
+Bhopal,Madhya Pradesh,Wk 1,20.6,NORMAL,1,2,3
+Bhopal,Madhya Pradesh,Wk 2,20.6,NORMAL,1,2,3
+Bhopal,Madhya Pradesh,Wk 3,20.6,NORMAL,1,2,3
+Bhopal,Madhya Pradesh,Wk 4,20.6,NORMAL,1,2,4
+Bhopal,Madhya Pradesh,Wk 5,20.6,NORMAL,1,2,4
+Bhopal,Madhya Pradesh,Wk 6,20.6,NORMAL,1,2,3
+Bhopal,Madhya Pradesh,Wk 7,20.6,NORMAL,1,2,4
+Bhopal,Madhya Pradesh,Wk 8,20.6,NORMAL,1,2,2
+Wayanad,Kerala,Wk 1,7,NORMAL,0,1,1
+Wayanad,Kerala,Wk 2,7,NORMAL,0,1,1
+Wayanad,Kerala,Wk 3,7,NORMAL,0,1,1
+Wayanad,Kerala,Wk 4,7,NORMAL,0,1,1
+Wayanad,Kerala,Wk 5,7,NORMAL,0,1,0
+Wayanad,Kerala,Wk 6,7,NORMAL,0,1,1
+Wayanad,Kerala,Wk 7,7,NORMAL,0,1,0
+Wayanad,Kerala,Wk 8,7,NORMAL,0,1,0
+Kozhikode,Kerala,Wk 1,13.4,NORMAL,1,1,4
+Kozhikode,Kerala,Wk 2,13.4,NORMAL,1,1,2
+Kozhikode,Kerala,Wk 3,13.4,NORMAL,1,1,2
+Kozhikode,Kerala,Wk 4,13.4,NORMAL,1,1,2
+Kozhikode,Kerala,Wk 5,13.4,NORMAL,1,1,1
+Kozhikode,Kerala,Wk 6,13.4,NORMAL,1,1,2
+Kozhikode,Kerala,Wk 7,13.4,NORMAL,1,1,2
+Kozhikode,Kerala,Wk 8,13.4,NORMAL,1,1,3
