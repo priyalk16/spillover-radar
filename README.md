@@ -148,50 +148,7 @@ python run.py                      # opens http://localhost:8000
 
 `python run.py` generates `index.html`, `api/districts.json` and `data/surveillance_sample.csv`, then serves the dashboard.
 
-### Command-line options
 
-| Command | What it does |
-| :-- | :-- |
-| `python run.py` | Simulated data, local server on port 8000 |
-| `python run.py --live` | Fetch real weather from Open-Meteo, refresh every 30 min (`--refresh-min N`) |
-| `python run.py --scenario FILE.csv` | Replay a documented outbreak with confirmation-week lead time |
-| `python run.py --write-scenario-sample` | Write a synthetic example to `data/scenarios/` |
-| `python run.py --webhook URL` | POST JSON to `URL` whenever a new CRITICAL alert opens |
-| `python run.py --port 8080` | Use a different port |
-| `python run.py --no-browser` | Do not open a browser tab |
-| `python run.py --build-only` | Write the files, print the terminal report, then exit |
-
-The server binds to `127.0.0.1` only, because the POST endpoints are unauthenticated.
-
----
-
-## 📥 Using real data
-
-Create `data/surveillance.csv` (a schema example is written to `data/surveillance_sample.csv` on every demo run). One row per district per week:
-
-| Column | Meaning |
-| :-- | :-- |
-| `name`, `state`, `lat`, `lon` | District identity and centroid |
-| `week` | Integer, 0 = oldest week |
-| `abortions`, `deaths`, `ppr` | Weekly animal counts (leave blank if not reported) |
-| `vax_cov` | Vaccination coverage, 0–1 |
-| `temp_spike`, `rain_deficit` | Climate anomalies (°C, %) |
-| `human_fever` | Weekly human febrile-illness count |
-
-**Case replay:** save the same CSV plus a JSON file with the same base name:
-
-```json
-{ "title": "…", "illustrative": false, "focus_district": "…",
-  "confirmed_week": 9, "source": "citation or URL", "notes": "…" }
-```
-
-`confirmed_week` is 1-indexed (the week of official confirmation). The dashboard then shows the radar-flag and CUSUM lead time against it.
-
-**Webhook payload** (sent when a new CRITICAL alert opens):
-
-```json
-{ "text": "SPILLOVER RADAR ALERT: Barmer CRITICAL (88.6/100). Verify and dispatch veterinary team within 48 h.",
-  "district": "Barmer", "score": 88.6, "opened": "2026-10-17T12:35:02+05:30" }
 ```
 
 ---
